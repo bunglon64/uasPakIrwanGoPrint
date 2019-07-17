@@ -1,0 +1,80 @@
+body {
+	background-color: black;
+}
+.container {
+	width: 900px;
+	margin: auto;
+	/*border-left: 2px solid salmon;
+	border-right: 2px solid salmon;*/
+}
+.fixed {
+	width: 900px;
+	height: 50px;
+	background-color: black;
+	position: fixed;
+}
+.fixed ul li {
+	color: white;
+	display: inline-block;
+	margin-left: 130px;
+	line-height: 50px;
+}
+.fixed ul li a {
+	font-family: arial;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 0 20px yellow;
+	}
+.fixed ul li a:hover {
+	background-color: lightskyblue;
+	color: yellow;
+	transition: 0.7s;
+	padding: 5px;
+}
+.logo {
+	padding-top: 50px;
+	line-height: 200px; 
+	background: #666;
+	font-size: 6.5em;
+	color: #222;
+	text-shadow: 0 1px 1px white;
+	text-align: center;
+}
+p {
+	color: salmon;
+}
+.logo2 {
+	font-family: times new roman;
+	font-size: 6.5em;
+	font-weight: bold;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	text-shadow: 0 0 10px #fff, 
+				 0 0 20px #fff, 
+				 0 0 30px #fff, 
+				 0 0 40px #ff00de, 
+				 0 0 70px #ff00de, 
+				 0 0 80px #ff00de, 
+				 0 0 100px #ff00de, 
+				 0 0 150px #ff00de;
+	padding-top: 10px;
+}
+table td {
+	color: salmon;
+}
+.footer {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+.footer a:hover {
+	font-size: 20px;
+	transition: 0.7s;
+}

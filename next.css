@@ -1,0 +1,71 @@
+body {
+	background-color: black;
+}
+.container {
+	width: 900px;
+	margin: auto;
+	/*border-left: 2px solid salmon;
+	border-right: 2px solid salmon;*/
+}
+.fixed {
+	width: 900px;
+	height: 50px;
+	background-color: black;
+	position: fixed;
+}
+.fixed ul li {
+	color: white;
+	display: inline-block;
+	margin-left: 130px;
+	line-height: 50px;
+}
+.fixed ul li a {
+	font-family: arial;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 0 20px yellow;
+	}
+.fixed ul li a:hover {
+	background-color: lightskyblue;
+	color: yellow;
+	transition: 0.7s;
+	padding: 5px;
+}
+dd {
+	color: white;
+}
+.dl {
+	padding-top: 100px;
+}
+.dl table {
+	margin: auto;
+	text-align: center;
+}
+img	{
+	width: 70%;
+}
+label, td {
+	color: white;
+}
+table {
+	margin: auto;
+}
+input {
+	width: 80px;
+}
+h3 {
+	color: white;
+}
+.button {
+	text-align: center;
+}
+
+tr:nth-child(4) td{
+	text-align: center;
+}
+
+tr:nth-child(4) td button{
+	width: 200px;
+}

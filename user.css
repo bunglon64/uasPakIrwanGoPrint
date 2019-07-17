@@ -1,0 +1,182 @@
+body {
+		font-family: Timen New Roman;
+		/*font-weight: bold;*/
+		background: black;
+}
+.container {
+	width: 900px;
+	margin: auto;
+
+}
+.fixed {
+	width: 900px;
+	height: 50px;
+	background-color: black;
+	position: fixed;
+}
+.fixed ul li {
+	color: white;
+	display: inline-block;
+	margin-left: 130px;
+	line-height: 50px;
+}
+.fixed ul li a {
+	font-family: arial;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 0 20px yellow;
+	}
+.fixed ul li a:hover {
+	background-color: lightskyblue;
+	color: yellow;
+	transition: 0.7s;
+	padding: 5px;
+}
+.logo {
+	padding-top: 50px;
+	line-height: 200px; 
+	background: #666;
+	font-size: 6.5em;
+	color: #222;
+	text-shadow: 0 1px 1px white;
+	text-align: center;
+}
+.lokasi {
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+.lokasi label {
+		font-weight: normal;
+		color: white;
+		text-shadow: 0 0 10px #fff, 
+					 0 0 20px #fff, 
+					 0 0 30px #fff, 
+					 0 0 40px #ff00de, 
+					 0 0 70px #ff00de, 
+					 0 0 80px #ff00de, 
+					 0 0 100px #ff00de, 
+					 0 0 150px #ff00de;
+}
+.lokasi select {
+	height: 30px;
+}
+.pengiriman {
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+.pengiriman label {
+		font-weight: normal;
+		color: white;
+		text-shadow: 0 0 10px #fff, 
+					 0 0 20px #fff, 
+					 0 0 30px #fff, 
+					 0 0 40px #ff00de, 
+					 0 0 70px #ff00de, 
+					 0 0 80px #ff00de, 
+					 0 0 100px #ff00de, 
+					 0 0 150px #ff00de;
+}
+.radio1 {
+	width: 450px;
+	display: inline-block;
+}
+.radio1 label:hover {
+	color: blue;
+}
+.radio2 {
+	width: 445px;
+	display: inline-block;
+}
+.radio2 label:hover {
+	color: red;
+}
+.dropfile {
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+.dropfile input {
+		color: white;
+}
+.textarea {
+	position: relative;
+	height: 100px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.textarea1 {
+	width: 50px;
+	display: inline-block;
+}
+.textarea label {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+		font-weight: normal;
+		color: white;
+		text-shadow: 0 0 10px #fff, 
+					 0 0 20px #fff, 
+					 0 0 30px #fff, 
+					 0 0 40px #ff00de, 
+					 0 0 70px #ff00de, 
+					 0 0 80px #ff00de, 
+					 0 0 100px #ff00de, 
+					 0 0 150px #ff00de;
+
+}
+
+.textarea2 {
+	width: 800px;
+	display: inline-block;
+	float: right;
+}
+textarea {
+	width: 800px;
+	height: 95px;
+	float: right;
+}
+.clear {
+	clear: right;
+}
+.button2 {
+	width: 100%;
+	height: 36px;
+}
+.bawah {
+	text-align: center;
+	line-height: 50px;
+}
+.button2 a {
+	text-decoration: none;
+}
+div p {
+	color: white;
+}
+/*div.tombol {
+	position: fixed;
+	top: 0px;
+	background-color: white;
+}
+div.tombol ul li{
+	line-height: 20px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}*/
+.bawah {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.bawah a {
+	color: white;
+	text-decoration: none;
+}
+.bawah a:hover {
+	font-size: 20px;
+	transition: 0.7s;
+}

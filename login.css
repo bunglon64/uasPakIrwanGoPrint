@@ -1,0 +1,75 @@
+body {
+		font-family: arial;
+		font-weight: bold;
+		background: black;
+}
+.container {
+	width: 900px;
+	margin: auto;
+}
+.header {
+	line-height: 200px; 
+	background: #666;
+	font-size: 6.5em;
+	color: #222;
+	text-shadow: 0 1px 1px white;
+	text-align: center;
+}
+.tengah {
+	margin-top: 150px
+}
+.tengah table {
+	margin: auto;
+	border-color: salmon;
+	border-top: 2px;
+}
+input {
+	width: 230px;
+	height: 30px;
+}
+label {
+	color: white;
+	text-shadow: 0 0 20px yellow;
+}
+
+button {
+	width: 100%;
+	height: 36px;
+}
+button a {
+	text-decoration: none;
+}
+button a:hover {
+	font-size: 20px;
+	transition: 0.7s;
+}
+.tengah label {
+	color: white;
+}
+.daftar label a {
+	color: white;
+}
+.daftar	{
+	text-align: center;
+}
+.bawah {
+	text-align: center;
+	height: 200px;
+	line-height: 200px;
+}
+div p {
+	color: white;
+}
+.bawah {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.bawah a {
+	color: white;
+	text-decoration: none;
+}
+.bawah a:hover {
+	font-size: 20px;
+	transition: 0.7s;
+}
